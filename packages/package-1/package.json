@@ -1,0 +1,13 @@
+{
+  "name": "@saitonakamura/package-1",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.42.4"
+  },
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "watch": "yarn build --watch"
+  }
+}

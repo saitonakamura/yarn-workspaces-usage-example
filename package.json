@@ -1,0 +1,16 @@
+{
+  "name": "workspaces-test",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "workspaces-run --order-by-deps -- yarn build",
+    "watch": "workspaces-run --parallel -- yarn watch"
+  },
+  "dependencies": {
+    "workspaces-run": "^1.0.1"
+  }
+}

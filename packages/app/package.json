@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "parcel": "^2.0.0-beta.2",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "build": "parcel build index.html",
+    "watch": "parcel serve index.html"
+  },
+  "dependencies": {
+    "@saitonakamura/package-1": "^1.0.0",
+    "@saitonakamura/package-2": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

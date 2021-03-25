@@ -1,0 +1,14 @@
+{
+  "name": "@saitonakamura/package-2",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "yarn build --watch"
+  }
+}
